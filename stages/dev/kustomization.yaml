@@ -5,6 +5,10 @@ resources:
 - ../../base
 - configmap.yaml
 
+images:
+- name: nginx
+  newName: nginx
+
 patches:
 - target:
     kind: Service
